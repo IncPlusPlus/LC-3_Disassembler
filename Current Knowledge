@@ -1,0 +1,4 @@
+If the first instruction is the .ORIG directive, the first 16 will just be the number representing where the program should start.
+System routines, such as keyboard input, are loaded automatically loaded into “system memory,” below x3000
+User code should be loaded between x3000 and xFDFF
+Each object file includes a starting address

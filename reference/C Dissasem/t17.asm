@@ -1,0 +1,3 @@
+.orig x3000
+START STI R3, START
+.end

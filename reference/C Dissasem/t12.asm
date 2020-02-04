@@ -1,0 +1,5 @@
+.orig x3000
+LEA R1, NEXT
+.FILL x0000
+NEXT
+.end
