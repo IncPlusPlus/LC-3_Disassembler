@@ -22,8 +22,11 @@ public class ObjParser
 		String[] lines = readLines();
 		AssemblyProgram program = new AssemblyProgram();
 
+
 		return program;
 	}
+
+
 
 	private String[] readLines()
 	{
